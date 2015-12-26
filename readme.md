@@ -15,7 +15,7 @@ The "activity_label.txt" provided the labels for the six activities, which were 
 
 The two sets were now merged using the `rbind` command.  
 
-To get the final independent data set with average of each variable for each activity and subject, the `data.table`'s notation of `[]` were used to aggregate and summarise (using the `.SD` functionality). The summarised data set was in a wide form.    
+To get the final independent data set with average of each variable for each activity and subject, the `data.table`'s notation of `[]` was used to aggregate and summarise (using the `.SD` functionality). The summarised data set was in a wide form.    
 
 The summarised data set was finally written to a text file. 
 
