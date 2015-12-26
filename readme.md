@@ -15,8 +15,8 @@ The "activity_label.txt" provided the labels for the six activities, which were 
 
 The two sets were now merged using the `rbind` command.  
 
-To get the final independent data set with average of each variable for each activity and subject, the `data.table`'s notation of `[]` was used to aggregate and summarise (using the `.SD` functionality). The summarised data set was in a wide form.    
+To get the final independent data set with average of each variable for each activity and subject, the `data.table`'s notation of `[]` was used to aggregate and summarise (using the `.SD` functionality).    
 
-The summarised data set was finally written to a text file. 
+The summarised data set was finally written to a text file "TidyDataSet.txt". The dimensions of this data set are [180 X 88]. There were 30 subjects, and each performed 6 activities, leading to 180 rows, and 88 columns for the 88 variables.
 
-Specific detail regarding each step can be found in the comments of the script `run_anlaysis.R`
+Specific detail regarding each step can be found in the comments of the script `run_analysis.R`
